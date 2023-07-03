@@ -1,0 +1,11 @@
+1. What is the difference between var and let?
+-- var is function scoped while let is block scoped. jVar can be reassigned and redeclared while let can not be redeclared.
+
+2. What is the difference between var and const?
+-- var is able to be redeclared and reassigned while const can not be reassigned or redeclared. 
+
+3. What is the difference between let and const?
+-- both are block scoped but let can be reassigned while const cannot. Neither can be redeclared.
+
+4. What is hoisting?
+-- hoisting is how Javascript compiles variables declared with var keyword. You're able to access the varaible name before the contents have been defined, although it returns undefined and not an error as let or const would. Hoisting also applies to functions so that they do not all need to be written at the top of your code before being called.
